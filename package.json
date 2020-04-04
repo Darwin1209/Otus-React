@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack --watch",
-    "test": "jest"
+    "test": "jest",
+    "lint": "npx eslint --ext .js src/"
   },
   "author": "Denis Shevchenko",
   "license": "ISC",
@@ -26,5 +27,8 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0"
+  }
 }

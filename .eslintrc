@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "parser": "babel-eslint",
+    "ecmaVersion": 2018
+  }
+}
